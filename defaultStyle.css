@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: white;
     font-family: sans-serif;
@@ -5,6 +9,7 @@ body{
 .Central
 {
     text-align: center;
+    align-items: center;
 }
 
 #About
@@ -13,6 +18,8 @@ body{
     color: white;
     padding: 10px;
     border-radius: 10px;
+    width: 900px;
+    margin: auto;
 }
 
 #Taskbar
@@ -36,13 +43,14 @@ body{
     height: 30px;
     text-align: center;
     font-size: 15px;
-    border-style: outset;
+    border-style: solid;
     border-radius: 10px;
+    border-color: white;
     background-color: rgb(9, 113, 145);
     color: white;
     position: relative;
     top: 3px;
-    left: 10%;
+    left: 5%;
 }
 .TaskButton:hover
 {
@@ -54,9 +62,68 @@ body{
     color: white;
     position: relative;
     top: 8px;
-    left: 5%;
+    left: 4%;
 }
 #HomeButton:hover
 {
     color: rgb(80, 204, 241);
+}
+
+#Email
+{
+    color: white;
+    position: relative;
+    top: 10px;
+    float: right;
+    right: 5%;
+}
+#Email:hover
+{
+    color: rgb(80, 204, 241);
+}
+
+#Itch
+{
+    color: #FA5C5C;
+    position: relative;
+    top: 10px;
+    float: right;
+    right: 5%;
+}
+#Itch:hover
+{
+    color: rgb(80, 204, 241);
+}
+
+#LinkedIn
+{
+    color: #0a66c2;
+    position: relative;
+    top: 10px;
+    float: right;
+    right: 5%;
+}
+#LinkedIn:hover
+{
+    color: rgb(80, 204, 241);
+}
+
+#Github
+{
+    color: white;
+    position: relative;
+    top: 10px;
+    float: right;
+    right: 5.2%;
+}
+#Github:hover
+{
+    color: rgb(80, 204, 241);
+}
+
+#ProfileImage
+{
+    width: 200px;
+    border-radius: 200px;
+    position: relative;
 }
