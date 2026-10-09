@@ -1,0 +1,62 @@
+body{
+    background-color: white;
+    font-family: sans-serif;
+}
+.Central
+{
+    text-align: center;
+}
+
+#About
+{
+    background-color: rgb(9, 113, 145);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#Taskbar
+{
+    position: fixed;
+    background-color: rgb(49, 49, 49);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 45px;
+    border-style: groove;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom-width: 10px;
+    border-color: rgb(9, 113, 145);
+}
+
+.TaskButton
+{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    border-style: outset;
+    border-radius: 10px;
+    background-color: rgb(9, 113, 145);
+    color: white;
+    position: relative;
+    top: 3px;
+    left: 10%;
+}
+.TaskButton:hover
+{
+    background-color: rgb(80, 204, 241);
+}
+
+#HomeButton
+{
+    color: white;
+    position: relative;
+    top: 8px;
+    left: 5%;
+}
+#HomeButton:hover
+{
+    color: rgb(80, 204, 241);
+}
