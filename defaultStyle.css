@@ -1,18 +1,19 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background-color: white;
     font-family: sans-serif;
 }
-.Central
-{
+
+.Central {
     text-align: center;
+    margin: auto;
+    display: block;
 }
 
-#About
-{
+#About {
     background-color: rgb(9, 113, 145);
     color: white;
     padding: 10px;
@@ -21,8 +22,7 @@ body{
     margin: auto;
 }
 
-#Taskbar
-{
+#Taskbar {
     position: fixed;
     background-color: rgb(49, 49, 49);
     left: 0;
@@ -37,8 +37,7 @@ body{
     z-index: 100;
 }
 
-.TaskButton
-{
+.TaskButton {
     width: 100px;
     height: 30px;
     text-align: center;
@@ -51,98 +50,89 @@ body{
     position: relative;
     top: 3px;
 }
-#AboutButton
-{
+
+#AboutButton {
     left: 5%;
 }
-#ProjectsButton
-{
+
+#ProjectsButton {
     left: 6%;
 }
 
-.TaskButton:hover
-{
+.TaskButton:hover {
     background-color: rgb(80, 204, 241);
 }
 
-#HomeButton
-{
+#HomeButton {
     color: white;
     position: relative;
     top: 8px;
     left: 4%;
 }
-#HomeButton:hover
-{
+
+#HomeButton:hover {
     color: rgb(80, 204, 241);
 }
 
-#Email
-{
+#Email {
     color: white;
     position: relative;
     top: 10px;
     float: right;
     right: 5%;
 }
-#Email:hover
-{
+
+#Email:hover {
     color: rgb(80, 204, 241);
 }
 
-#Itch
-{
+#Itch {
     color: #FA5C5C;
     position: relative;
     top: 10px;
     float: right;
     right: 5%;
 }
-#Itch:hover
-{
+
+#Itch:hover {
     color: rgb(80, 204, 241);
 }
 
-#LinkedIn
-{
+#LinkedIn {
     color: #0a66c2;
     position: relative;
     top: 10px;
     float: right;
     right: 5%;
 }
-#LinkedIn:hover
-{
+
+#LinkedIn:hover {
     color: rgb(80, 204, 241);
 }
 
-#Github
-{
+#Github {
     color: white;
     position: relative;
     top: 10px;
     float: right;
     right: 5.2%;
 }
-#Github:hover
-{
+
+#Github:hover {
     color: rgb(80, 204, 241);
 }
 
-#ProfileImage
-{
+#ProfileImage {
     width: 200px;
     border-radius: 200px;
 }
 
-#Projects
-{
+#Projects {
     background-color: rgb(90, 90, 90);
     color: white;
 }
 
-.ProjectImage
-{
+.ProjectImage {
     position: relative;
     width: 400px;
     border: rgb(9, 113, 145);
@@ -151,12 +141,27 @@ body{
     margin: auto;
     z-index: 5;
 }
-.EngineIcon
+.ProjectImage:hover {
+    border: rgb(80, 204, 241);
+    border-style: solid;
+    border-width: 5px;
+    margin: auto;
+}
+
+.ProjectDisplay
 {
+    width: 400px;
+    border: rgb(9, 113, 145);
+    border-style: solid;
+    border-width: 5px;
+    
+}
+
+.EngineIcon {
     position: absolute;
     z-index: 10;
     width: 60px;
-    bottom: 10px;
+    bottom: 11px;
     right: 10px;
     background-color: rgba(0, 0, 0, 0.582);
     border-radius: 10px;
@@ -164,10 +169,10 @@ body{
     border-left-width: 6px;
     border-right-width: 6px;
     border-style: solid;
+    pointer-events: none;
 }
 
-.LangIcon
-{
+.LangIcon {
     position: absolute;
     z-index: 10;
     width: 60px;
@@ -179,16 +184,16 @@ body{
     border-left-width: 6px;
     border-right-width: 6px;
     border-style: solid;
+    pointer-events: none;
 }
 
-.Figure
-{
+.Figure {
     position: relative;
     width: auto;
     height: auto;
 }
-.Caption
-{
+
+.Caption {
     position: relative;
     background-color: rgb(9, 113, 145);
     border-radius: 15px;
@@ -198,10 +203,20 @@ body{
     bottom: -5px;
 }
 
-.Container
-{
+.Container {
     position: relative;
     align-items: flex-start;
     display: flex;
     justify-content: center;
+}
+
+.DisplayContainer {
+    margin: auto;
+    position: relative;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1500px;
+    justify-content: center;
+    gap: 10px;
 }
