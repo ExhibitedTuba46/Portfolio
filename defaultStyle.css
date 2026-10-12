@@ -7,6 +7,15 @@ body {
     font-family: sans-serif;
 }
 
+h1
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+h3
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .Central {
     text-align: center;
     margin: auto;
@@ -46,7 +55,7 @@ body {
 }
 
 #Taskbar {
-    position: fixed;
+    position: absolute;
     background-color: rgb(49, 49, 49);
     left: 0;
     top: 0;
@@ -73,6 +82,27 @@ body {
     position: relative;
     top: 3px;
 }
+.TaskButton:hover {
+    background-color: rgb(80, 204, 241);
+}
+
+.BigButton {
+    font-family: 'Courier New', Courier, monospace;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    background-color: rgb(16, 142, 180);
+    color: white;
+    position: relative;
+    top: 3px;
+}
+.BigButton:hover {
+    background-color: rgb(80, 204, 241);
+}
 
 #AboutButton {
     left: 5%;
@@ -82,9 +112,6 @@ body {
     left: 6%;
 }
 
-.TaskButton:hover {
-    background-color: rgb(80, 204, 241);
-}
 
 #HomeButton {
     color: white;
@@ -153,6 +180,7 @@ body {
 #Projects {
     background-color: rgb(90, 90, 90);
     color: white;
+    border-radius: 10px;
 }
 
 .ProjectImage {
@@ -243,4 +271,12 @@ body {
     width: 1500px;
     justify-content: center;
     gap: 10px;
+}
+
+#CV
+{
+    margin: auto;
+    position: absolute;
+    width: 99%;
+    height: 100%;
 }
