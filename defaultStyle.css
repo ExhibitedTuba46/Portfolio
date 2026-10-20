@@ -20,7 +20,7 @@ h3 {
     text-align: center;
     margin: auto;
     display: block;
-    padding: 5px;
+    padding: 2vw;
 }
 
 .CentralConfined {
@@ -37,7 +37,7 @@ h3 {
     background-color: rgb(9, 113, 145);
     color: white;
     padding: 1vw;
-    border-radius: 1vw;
+    border-radius: 0.5vw;
     width: 50vw;
     padding-bottom: 3vw;
     padding-left: 3vw;
@@ -188,7 +188,7 @@ h3 {
 #Projects {
     background-color: rgb(90, 90, 90);
     color: white;
-    border-radius: 10px;
+    border-radius: 1vw;
     padding: 10px;
 }
 
@@ -260,20 +260,26 @@ h3 {
 .Caption {
     position: relative;
     background-color: rgb(9, 113, 145);
-    border-radius: 15px;
+    border-radius: 0.3vw;
     color: white;
     padding: 5px;
-    left: 0.15vw;
     height: fit-content;
-    padding-bottom: 20px;
+    padding-bottom: 1.5vw;
     text-decoration: none;
 }
 
 .Container {
+    margin: auto;
     position: relative;
-    align-items: flex-start;
+    align-items: center;
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .Container {
+        flex-direction: column;
+    }
 }
 
 .DisplayContainer {
