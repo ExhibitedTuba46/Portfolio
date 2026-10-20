@@ -271,7 +271,7 @@ h3 {
 .Container {
     margin: auto;
     position: relative;
-    align-items: center;
+    align-items: flex-start;
     display: flex;
     justify-content: center;
 }
@@ -279,6 +279,20 @@ h3 {
 @media (max-width: 600px) {
     .Container {
         flex-direction: column;
+    }
+
+    .ProjectImage {
+        width: 80vw;
+        border-width: 1.2vw;
+    }
+    .ProjectImage:hover
+    {
+        border-width: 1.2vw;
+    }
+
+    body
+    {
+        font-size: 3vw;
     }
 }
 
