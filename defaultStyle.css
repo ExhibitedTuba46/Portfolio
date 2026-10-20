@@ -20,14 +20,15 @@ h3
     text-align: center;
     margin: auto;
     display: block;
+    padding: 5px;
 }
 
-.MiddleLeft
+.CentralConfined
 {
     text-align: left;
     margin: auto;
     display: block;
-    width: 500px;
+    width: 400px;
     background-color: rgb(90, 90, 90);
     color: white;
     padding: 5px;
@@ -40,6 +41,7 @@ h3
     border-radius: 10px;
     width: 900px;
     margin: auto;
+    padding-bottom: 40px;
 }
 
 .ProjectDescription {
@@ -52,6 +54,7 @@ h3
     border-radius: 10px;
     width: 1200px;
     margin: auto;
+    padding-bottom: 15px;
 }
 
 #Taskbar {
@@ -181,6 +184,7 @@ h3
     background-color: rgb(90, 90, 90);
     color: white;
     border-radius: 10px;
+    padding: 10px;
 }
 
 .ProjectImage {
@@ -251,7 +255,8 @@ h3
     color: white;
     padding: 5px;
     height: fit-content;
-    bottom: -5px;
+    padding-bottom: 20px;
+    text-decoration: none;
 }
 
 .Container {
